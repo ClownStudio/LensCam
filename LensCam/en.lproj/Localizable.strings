@@ -1,0 +1,41 @@
+/* 
+  Localizable.strings
+  LensCam
+
+  Created by 张文洁 on 2018/10/30.
+  Copyright © 2018 JamStudio. All rights reserved.
+*/
+
+"hasPurchase" = "hasPurchase";
+"Tip" = "Tip";
+"Loading" = "Loading";
+"Cancel" = "Cancel";
+"OK" = "OK";
+"RequestRewardVideoError" = "RequestRewardVideoError";
+"UnlockSuccess" = "UnlockSuccess";
+"NoSupportLight" = "NoSupportLight";
+"NoAccessCamera" = "NoAccessCamera";
+"Processing" = "Processing";
+"NoMailAccount" = "NoMailAccount";
+"PurchaseSuccess" = "PurchaseSuccess";
+"RestoreSuccess" = "RestoreSuccess";
+"Evaluate" = "Evaluate";
+"RestoreError" = "RestoreError";
+"FeedbackError" = "FeedbackError";
+"DisablePurchases" = "DisablePurchases";
+"UnablePurchases" ="UnablePurchases";
+
+"SaveSuccess" = "Save Success";
+"SaveError" = "Save Error";
+"Saving" = "Saving";
+"CreateAlbumError" = "Create Album Error";
+"AlbumEditError" = "AlbumEditError";
+"Share" = "Share";
+"Saved" = "Saved";
+
+"BuySingle" = "BuySingle";
+"BuyAll" = "BuyAll";
+"ShouldPay" = "ShouldPay";
+"ShouldRewardVideo" = "ShouldRewardVideo";
+"NoPermission" = "NoPermission";
+"ShouldPayForAd" = "ShouldPayForAd";

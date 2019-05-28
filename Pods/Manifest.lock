@@ -1,0 +1,29 @@
+PODS:
+  - BLImagePickerLib (1.0.3)
+  - Google-Mobile-Ads-SDK (7.30.0)
+  - MBProgressHUD (0.9.2)
+  - MBProgressHUD+JDragon (0.0.3):
+    - MBProgressHUD (~> 0.9.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - XLPhotoBrowser+CoderXL (1.2.0):
+    - SDWebImage (~> 4.0.0)
+
+DEPENDENCIES:
+  - BLImagePickerLib (~> 1.0.3)
+  - Google-Mobile-Ads-SDK (~> 7.30.0)
+  - MBProgressHUD+JDragon (~> 0.0.3)
+  - XLPhotoBrowser+CoderXL
+
+SPEC CHECKSUMS:
+  BLImagePickerLib: 32d8ebf1940b21601f530c567d3c401fbc47c925
+  Google-Mobile-Ads-SDK: 7404f68120ae8682afeb5af001fbf4aad731c78e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MBProgressHUD+JDragon: 74b18a89dac13cc921df0e2b0c2945b29b15e7ab
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  XLPhotoBrowser+CoderXL: 2bf4036e2af4611b24bde1681e24c64ed01fbe98
+
+PODFILE CHECKSUM: 34713419f448d3eae811f755a08ec9b103cddb31
+
+COCOAPODS: 1.4.0

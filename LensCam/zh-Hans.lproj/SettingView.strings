@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Album Mode"; ObjectID = "5f6-eU-spc"; */
+"5f6-eU-spc.text" = "Album Mode";
+
+/* Class = "UILabel"; text = "Auto Save"; ObjectID = "CGg-SN-0Fm"; */
+"CGg-SN-0Fm.text" = "Auto Save";
+
+/* Class = "UILabel"; text = "Random Date"; ObjectID = "OeJ-s5-gnd"; */
+"OeJ-s5-gnd.text" = "Random Date";
+
+/* Class = "UIButton"; normalTitle = "FeedBack"; ObjectID = "S8n-eb-sWM"; */
+"S8n-eb-sWM.normalTitle" = "FeedBack";
+
+/* Class = "UIButton"; normalTitle = "1 9 9 7 / 0 7 / 2 6"; ObjectID = "XgX-VF-NT6"; */
+"XgX-VF-NT6.normalTitle" = "1 9 9 7 / 0 7 / 2 6";
+
+/* Class = "UIButton"; normalTitle = "Restore Purchase"; ObjectID = "XiA-Aa-3uq"; */
+"XiA-Aa-3uq.normalTitle" = "Restore Purchase";
+
+/* Class = "UILabel"; text = "Sound Enable"; ObjectID = "ciW-g8-zus"; */
+"ciW-g8-zus.text" = "Sound Enable";
+
+/* Class = "UILabel"; text = "Custom Date"; ObjectID = "eGX-CX-fbW"; */
+"eGX-CX-fbW.text" = "Custom Date";
+
+/* Class = "UIButton"; normalTitle = "Website"; ObjectID = "oaF-lb-FRB"; */
+"oaF-lb-FRB.normalTitle" = "Website";
+
+/* Class = "UILabel"; text = "S  E  T  T  I  N  G  S"; ObjectID = "tvx-4K-XZq"; */
+"tvx-4K-XZq.text" = "S  E  T  T  I  N  G  S";
+
+/* Class = "UILabel"; text = "Add Date Stamp"; ObjectID = "uxa-hf-cKh"; */
+"uxa-hf-cKh.text" = "Add Date Stamp";
+
+/* Class = "UIButton"; normalTitle = "Rate and Review"; ObjectID = "xge-4Y-ptq"; */
+"xge-4Y-ptq.normalTitle" = "Rate and Review";
