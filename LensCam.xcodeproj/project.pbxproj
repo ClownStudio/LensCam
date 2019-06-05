@@ -487,7 +487,6 @@
 		4282614B216F46DC00648470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4282614A216F46DC00648470 /* Assets.xcassets */; };
 		42826151216F46DC00648470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42826150216F46DC00648470 /* main.m */; };
 		42CD03ED219D4B7100CCC439 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CD03EC219D4B7000CCC439 /* shadow.png */; };
-		42CD03EF219D4CEA00CCC439 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CD03EE219D4CEA00CCC439 /* StoreKit.framework */; };
 		42CD0414219E513200CCC439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CD0412219E513200CCC439 /* LaunchScreen.storyboard */; };
 		42CD0415219E514100CCC439 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42CD0417219E514100CCC439 /* Localizable.strings */; };
 		42CD041E219E518A00CCC439 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 42CD041D219E518A00CCC439 /* launch.png */; };
@@ -1202,7 +1201,6 @@
 		4282614F216F46DC00648470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42826150216F46DC00648470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42CD03EC219D4B7000CCC439 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
-		42CD03EE219D4CEA00CCC439 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		42CD0413219E513200CCC439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CD0416219E514100CCC439 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		42CD0418219E514300CCC439 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -1232,7 +1230,6 @@
 				421EA4D6217E00ED006B60D8 /* Photos.framework in Frameworks */,
 				421EA4D4217E00E9006B60D8 /* AVFoundation.framework in Frameworks */,
 				F24BBAF38A2D628656DA968E /* libPods-LensCam.a in Frameworks */,
-				42CD03EF219D4CEA00CCC439 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1839,7 +1836,6 @@
 			isa = PBXGroup;
 			children = (
 				42CD041F219E652400CCC439 /* QuartzCore.framework */,
-				42CD03EE219D4CEA00CCC439 /* StoreKit.framework */,
 				421EA4D5217E00ED006B60D8 /* Photos.framework */,
 				421EA4D3217E00E9006B60D8 /* AVFoundation.framework */,
 				965E66D79AC484017FD4D4C9 /* libPods-LensCam.a */,
@@ -2180,7 +2176,7 @@
 						CreatedOnToolsVersion = 10.0;
 						SystemCapabilities = {
 							com.apple.InAppPurchase = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -2929,9 +2925,9 @@
 			baseConfigurationReference = EAF9E6D18D317724E4CAD9F4 /* Pods-LensCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hsiu ying Shen (A8QF97K98B)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang WenJie (688QZYPSVR)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = FM78YDS6QA;
+				DEVELOPMENT_TEAM = D38C434CHM;
 				INFOPLIST_FILE = LensCam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2947,7 +2943,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appstudio.X2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = X2test;
+				PROVISIONING_PROFILE_SPECIFIER = YinYinPingTai;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2957,9 +2953,9 @@
 			baseConfigurationReference = 7CB9A973B8032FC1A8B56761 /* Pods-LensCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Hsiu ying Shen (A8QF97K98B)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang WenJie (688QZYPSVR)";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = FM78YDS6QA;
+				DEVELOPMENT_TEAM = D38C434CHM;
 				INFOPLIST_FILE = LensCam/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2975,7 +2971,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appstudio.X2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = X2test;
+				PROVISIONING_PROFILE_SPECIFIER = YinYinPingTai;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
