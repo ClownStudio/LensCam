@@ -20,6 +20,9 @@
 }
 
 -(void)layoutSubviews{
+    if (@available(iOS 13.0, *)) {
+        self.overrideUserInterfaceStyle = UIUserInterfaceStyleLight;
+    }
     [self.autoSaveBtn setOn:[[SettingModel sharedInstance] isAutoSave]];
     [self.dateStampBtn setOn:[[SettingModel sharedInstance] isStamp]];
     [self.randomDateBtn setOn:[[SettingModel sharedInstance] isRandom]];
@@ -39,23 +42,19 @@
         [[NSNotificationCenter defaultCenter] postNotificationName:PAY_AD_PRODUCT object:nil];
         return;
     }
-    [self.autoSaveBtn setOn:!self.autoSaveBtn.isOn];
-    [[SettingModel sharedInstance] setIsAutoSave:self.autoSaveBtn.isOn];
+    [[SettingModel sharedInstance] setIsAutoSave:![[SettingModel sharedInstance] isAutoSave]];
 }
 
 - (IBAction)onAddStamp:(id)sender{
-    [self.dateStampBtn setOn:!self.dateStampBtn.isOn];
-    [[SettingModel sharedInstance] setIsStamp:self.dateStampBtn.isOn];
+    [[SettingModel sharedInstance] setIsStamp:![[SettingModel sharedInstance] isStamp]];
 }
 
 - (IBAction)onRadom:(id)sender{
-    [self.randomDateBtn setOn:!self.randomDateBtn.isOn];
-    [[SettingModel sharedInstance] setIsRandom:self.randomDateBtn.isOn];
+    [[SettingModel sharedInstance] setIsRandom:![[SettingModel sharedInstance] isRandom]];
 }
 
 - (IBAction)onSound:(id)sender{
-    [self.soundBtn setOn:!self.soundBtn.isOn];
-    [[SettingModel sharedInstance] setIsSound:self.soundBtn.isOn];
+    [[SettingModel sharedInstance] setIsSound:![[SettingModel sharedInstance] isSound]];
 }
 
 - (IBAction)onCustomDate:(id)sender{

@@ -684,6 +684,7 @@
     AlbumViewController *albumViewController = [[AlbumViewController alloc] init];
     albumViewController.imageList = _imageLists;
     albumViewController.selectCameraIndex = _selectCameraIndex;
+    albumViewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:albumViewController animated:YES completion:^{
         
     }];

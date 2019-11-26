@@ -28,7 +28,7 @@
 #define Is_iPhoneX ([UIScreen mainScreen].bounds.size.height == 812 || [UIScreen mainScreen].bounds.size.height == 896)
 
 //是否允许小图广告 1为允许 其余为不允许
-#define ALLOW_AD @"0"
+#define ALLOW_AD @"1"
 
 #define ALLOW_BIG_VIEWPORT @"1"
 
